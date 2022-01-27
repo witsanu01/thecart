@@ -51,10 +51,10 @@
         </center> 
             <div class="container mt-5">
             <div class="container">
-                <b>รหัสสินค้า</b> <?php echo $mem['product_code']; ?><br><br>
+                <b>รหัสเมนู</b> <?php echo $mem['product_code']; ?><br><br>
               </div> 
               <div class="container">
-                <b>ชื่อสินค้า</b> <?php echo $mem['product_name']; ?><br><br>
+                <b>ชื่อเมนู</b> <?php echo $mem['product_name']; ?><br><br>
               </div> 
               <div class="container">
               <b>ราคา</b> <?php echo $mem['product_price']; ?> บาท<br><br>

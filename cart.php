@@ -41,7 +41,7 @@ error_reporting(0);
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2>ตระกร้าสินค้า</h2>
+                        <h2>ตระกร้า</h2>
                     </div>
                 </div>
             </div>
@@ -56,13 +56,13 @@ error_reporting(0);
                 <div class="col-md-4">
                     
                     <div class="single-sidebar">
-                        <h2 class="sidebar-title">Products</h2>
+                        <h2 class="sidebar-title">เมนู</h2>
                         <?php
                         $products = new DB_con();
                         $sql = $products->fetchdataproduct1();
                         $rowcount=mysqli_num_rows($sql);
                             if($rowcount<=0){
-                            echo "<div class=\"alert alert-warning\">ไม่พบสินค้า</div>";
+                            echo "<div class=\"alert alert-warning\">ไม่พบเมนู</div>";
                             }
                             else{
                         while($row = mysqli_fetch_array($sql)) 
@@ -79,7 +79,7 @@ error_reporting(0);
                             <?php endif; ?> 
 
                             <?php if($row['qty']<=0) : ?>
-                            <p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">สินค้าหมด</span></p>
+                            <p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">ของหมด</span></p>
                             <?php endif; ?> 
                                 <ins><?php echo number_format($row['product_price'],2); ?> บาท</ins>
                             </div>                             
@@ -97,12 +97,12 @@ error_reporting(0);
                             <?php
                         if ($action == 'removed')
                             {
-                            echo "<div class=\"alert alert-warning\">ลบสินค้าเรียบร้อยแล้ว</div>";
+                            echo "<div class=\"alert alert-warning\">ลบเมนูเรียบร้อยแล้ว</div>";
                             }
                         
                         if ($meCount == 0)
                             {
-                            echo "<div class=\"alert alert-warning\">ไม่มีสินค้าอยู่ในตะกร้า</div>";
+                            echo "<div class=\"alert alert-warning\">ไม่มีเมนูอยู่ในตะกร้า</div>";
                             } else
                             {
                         ?>
@@ -110,8 +110,8 @@ error_reporting(0);
                                 <thead>
                         <tr class="cart_menu">
                         <th></th>   
-                        <th>รหัสสินค้า</th>
-                        <th>ชื่อสินค้า</th>
+                        <th>รหัสเมนู</th>
+                        <th>ชื่อเมนู</th>
                         <th>จำนวน</th>
                         <th>ราคาต่อหน่วย</th>
                         <th>จำนวนเงิน</th>
@@ -150,9 +150,9 @@ error_reporting(0);
                         </tr>
                         <tr>
                         <td colspan="8" style="text-align: right;">
-                        <a href="category" type="button" class="add_to_cart_button">เลือกสินค้า</a>
-                        <button type="submit" class="add_to_cart_button">คำนวณราคาใหม่</button>
-                        <a href="order" type="button" class="add_to_cart_button">สั่งซื้อสินค้า</a>
+
+      
+                        <a href="order" type="button" class="add_to_cart_button">สั่งซื้อเมนูเมนู</a>
                         </td>
                         </tr>
                         </tbody>
@@ -164,7 +164,7 @@ error_reporting(0);
 
 
                             <div class="cross-sells">
-                                <h2>Cart Totals</h2>
+                                <h2>รายละเอียด</h2>
 
                                 <table cellspacing="0">
                                     <tbody>
@@ -179,8 +179,8 @@ error_reporting(0);
                                         </tr>
 
                                         <tr class="order-total">
-                                            <th>จำนวนสินค้า</th>
-                                            <td><strong><span><?php echo $meQty ?> ชิ้น</td>
+                                            <th>จำนวนรายการสั่ง</th>
+                                            <td><strong><span><?php echo $meQty ?> ชุด</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -188,7 +188,7 @@ error_reporting(0);
 
 
                             <div class="cart_totals ">
-                                <h2>Cart Totals</h2>
+                                <h2>ราคารวม</h2>
 
                                 <table cellspacing="0">
                                     <tbody>
@@ -196,11 +196,11 @@ error_reporting(0);
                                             <th>ราคารวม</th>
                                             <td><span><?php echo number_format($total_price,2); ?> บาท</span></td>
                                         </tr>
-
+<!-- 
                                         <tr class="shipping">
                                             <th>ค่าจัดส่ง</th>
                                             <td><span>Free</span></td>
-                                        </tr>
+                                        </tr> -->
 
                                         <tr class="order-total">
                                             <th>รวมเป็นเงิน</th>

@@ -17,7 +17,7 @@ $rowc = $resultc ->fetch_assoc();
         <div class="container-fluid">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">เพิ่มสินค้า</h4>
+                  <h4 class="card-title">เพิ่มเมนู</h4>
                 </div>
                 <div class="card-body table-responsive">
                 <div class="form-group">
@@ -25,21 +25,21 @@ $rowc = $resultc ->fetch_assoc();
      
        
      <div class="mb-3">
-         <label for="product_code" class="form-label">รหัสสินค้า</label>
+         <label for="product_code" class="form-label">รหัสเมนู</label>
          <input type="text" class="form-control" id="product_code" name="product_code" value=""  >
      </div>
      <div class="mb-3">
-         <label for="product_name" class="form-label">ชื่อสินค้า</label>
+         <label for="product_name" class="form-label">ชื่อเมนู</label>
          <input type="text" class="form-control" id="product_name" name="product_name" onblur="checkusername(this.value)">
          <span id="usernameavailable"></span>
      </div>
      <div class="mb-3">
-     <label for="product_desc" class="form-label">รายละเอียดสินค้า</label>
+     <label for="product_desc" class="form-label">รายละเอียดเมนู</label>
          <input type="text" class="form-control" id="product_desc" name="product_desc">
      </div>
 
      <div class="mb-3">
-     <label for="product_desc" class="form-label">หมวดหมู่สินค้า</label></label>
+     <label for="product_desc" class="form-label">หมวดหมู่เมนู</label></label>
      <select name="catId" id="catId" class="form-control">
                    <option value=""></option>
                    <?php while($resultcat = mysqli_fetch_assoc($resultcat2)): ?>
@@ -65,7 +65,7 @@ $rowc = $resultc ->fetch_assoc();
      </div>
 
  <button type="submit" name="submit" class="btn btn-warning btn-block mt-4">
-   เพิ่มสินค้า
+   เพิ่มเมนู
  </button>
 </form>
       </div>

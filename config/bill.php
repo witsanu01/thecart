@@ -24,7 +24,7 @@
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    ระบบคลังสินค้า
+    ระบบคลังเมนู
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -66,8 +66,8 @@
 </table>
 <table class="table table-bordered" id="padmin">
                       <thead class=" text-info">
-                        <th class="text-info">รหัสสินค้า</th>
-                        <th class="text-info">สินค้า</th>
+                        <th class="text-info">รหัสเมนู</th>
+                        <th class="text-info">เมนู</th>
                         <th class="text-info">จำนวน</th>
                         <th class="text-info">ราคา</th>
                         </thead>

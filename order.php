@@ -51,7 +51,7 @@ $code = sprintf($date.'-%04d', $idf);
 			<form action="config/updateorder.php" method="post" name="formupdate" role="form" id="formupdate" onsubmit="JavaScript:return updateSubmit();">
 			<div class="container">
 			<div class="step-one"><br>
-				<h2 class="heading">รายละเอียดออเดอร์</h2>
+				<h2 class="heading">รายละเอียด</h2>
 			</div>
 			<div class="checkout-options">
 			
@@ -69,10 +69,10 @@ $code = sprintf($date.'-%04d', $idf);
                                         <th>ชื่อผู้สั่งซื้อ</th>
                                         <td><?php echo $_SESSION['fname']; ?></td>
                                     </tr>
-                                    <tr class="shipping">
+                                    <!-- <tr class="shipping">
                                         <th>ที่อยู่จัดส่ง</th>
                                         <td><?php echo $_SESSION['custaddr']; ?></td>
-                                    </tr>
+                                    </tr> -->
 									<tr class="shipping">
                                         <th>วันที่สั่งซื้อ</th>
                                         <td><?php echo date('d-m-Y') ?></td>
@@ -90,7 +90,7 @@ $code = sprintf($date.'-%04d', $idf);
 			
 			
 			<div class="review-payment">
-				<h2>Review & Payment</h2>
+				<h2>รายละเอียดออเดอร์</h2>
 			</div>
 
 			<div class="table-responsive cart_info">
@@ -98,8 +98,8 @@ $code = sprintf($date.'-%04d', $idf);
                 <thead>
                 <tr class="cart_menu">
                 <th>รหัสลูกค้า</th>
-                <th>รหัสสินค้า</th>
-                <th>ชื่อสินค้า</th>
+                <th>รหัสเมนู</th>
+                <th>ชื่อเมนู</th>
                 <th>จำนวน</th>
                 <th>ราคาต่อหน่วย</th>
                 <th>จำนวนเงิน</th>
@@ -145,7 +145,7 @@ $code = sprintf($date.'-%04d', $idf);
                 <td colspan="8" style="text-align: right;">
                 <input type="hidden" name="formid" value="<?php echo $_SESSION['formid']; ?>"/>
                 <a href="cart.php" type="button" class="add_to_cart_button">ย้อนกลับ</a>
-                <button type="submit" class="add_to_cart_button">บันทึกการสั่งซื้อสินค้า</button>
+                <button type="submit" class="add_to_cart_button">บันทึกการสั่งซื้อเมนู</button>
                 </td>
                 </tr>
                 </tbody>

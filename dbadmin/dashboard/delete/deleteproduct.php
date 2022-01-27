@@ -20,7 +20,7 @@ include_once('../../../config/functions.php');
                     echo '<script type="text/javascript">';
                     echo 'setTimeout(function () { swal.fire({
                         title: "สำเร็จ!",
-                        text: "ลบสินค้าเรียบร้อย",
+                        text: "ลบเมนูเรียบร้อย",
                         type: "success",
                         icon: "success"
                     });';

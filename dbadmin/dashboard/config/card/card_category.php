@@ -5,7 +5,7 @@
                   <div class="card-icon">
                     <i class="material-icons">content_copy</i>
                   </div>
-                  <p class="card-category">จำนวนสินค้าทั้งหมด</p>
+                  <p class="card-category">จำนวนเมนูทั้งหมด</p>
                   <h3 class="card-title"><?php echo number_format($row44["pid"]); ?>
                     <small>รายการ</small>
                   </h3>
@@ -24,7 +24,7 @@
                   <div class="card-icon">
                     <i class="material-icons">store</i>
                   </div>
-                  <p class="card-category">สินค้าที่เพิ่มในเดือนนี้</p>
+                  <p class="card-category">เมนูที่เพิ่มในเดือนนี้</p>
                   <h3 class="card-title"><?php echo $row6["ord"]; ?> 
                   <small>รายการ</small>
                   </h3>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">local_offer</i> Tracked from Github
+                    <i class="material-icons">local_offer</i>
                   </div>
                 </div>
               </div>

@@ -53,20 +53,20 @@ session_start();
           <li class="nav-item ">
             <a class="nav-link" href="/thecart/dbadmin/dashboard/view/category">
             <i class="fa fa-angle-double-right"></i> 
-              <p>จัดการหมวดหมู่สินค้า</p>
+              <p>จัดการหมวดหมู่เมนู</p>
             </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="/thecart/dbadmin/dashboard/view/product">
             <i class="fa fa-angle-double-right"></i> 
-              <p>จัดการสินค้า</p>
+              <p>จัดการเมนู</p>
             </a>
           </li>
           <div class="logo"></div>
           <li class="nav-item ">
             <a class="nav-link" href="/thecart/dbadmin/dashboard/view/reportorder">
             <i class="fa fa-receipt"></i> 
-              <p>รายงานการขายสินค้า</p>
+              <p>รายงานการขายเมนู</p>
             </a>
           </li>
           <li class="nav-item ">

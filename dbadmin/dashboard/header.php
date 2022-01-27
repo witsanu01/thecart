@@ -14,7 +14,7 @@ $row4 = $result4 ->fetch_assoc();
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-   Admin DB
+   เจ้าหน้าที่ของร้าน
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -81,7 +81,7 @@ $row4 = $result4 ->fetch_assoc();
 
             <li class="nav-item">
                 <a class="nav-link" href="javascript:;">
-                  <i class="material-icons">dashboard</i>
+                  <i class="material-icons">หน้ารวม</i>
                  สวัสดี, <?php echo $_SESSION['fname']; ?>
                 </a>
               </li>
@@ -97,7 +97,7 @@ $row4 = $result4 ->fetch_assoc();
                   <span class="notification"><?php echo $row4['oid']; ?></span>
                   <?php endif; ?></span>
                   <p class="d-lg-none d-md-block">
-                    Some Actions
+                    สั่งการ
                   </p>
                 </a>
               </li>
@@ -105,7 +105,7 @@ $row4 = $result4 ->fetch_assoc();
                 <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="material-icons">person</i>
                   <p class="d-lg-none d-md-block">
-                    Account
+                   บัญชี
                   </p>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">

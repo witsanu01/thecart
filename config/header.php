@@ -94,10 +94,10 @@ $resultcat = $conn->query($sqlcat);
                             <li><a class="nav-link" href="/thecart/dbadmin/dashboard">ตั้งค่าระบบ</a></li>
                             <?php endif; ?> 
                             <?php if(empty($_SESSION['id'])) : ?>
-                            <li><a href="/thecart/config/signin.php"><i class="fa fa-lock"></i> Login</a></li>
+                            <li><a href="/thecart/config/signin.php"><i class="fa fa-lock"></i>เข้าสู่ระบบ</a></li>
                             <?php endif; ?> 
                             <?php if(isset($_SESSION['id']) && !empty($_SESSION['id'])) : ?>
-                            <li><a href="/thecart/config/logout.php"><i class="fa fa-lock"></i> Logout</a></li>
+                            <li><a href="/thecart/config/logout.php"><i class="fa fa-lock"></i> ออกจากระบบ</a></li>
                             <?php endif; ?> 
                         </ul>
                     </div>
@@ -117,7 +117,7 @@ $resultcat = $conn->query($sqlcat);
                 
                 <div class="col-sm-6">
                     <div class="shopping-item">
-                        <a href="cart">ตระกร้าสินค้า -<i class="fa fa-shopping-cart"></i> <span class="product-count"><?php echo $meQty; ?></span></a>
+                        <a href="cart">ตระกร้าสั่งซื้อ -<i class="fa fa-shopping-cart"></i> <span class="product-count"><?php echo $meQty; ?></span></a>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ $resultcat = $conn->query($sqlcat);
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index">หน้าหลัก</a></li>
-                        <li><a href="shop">สินค้า</a></li>
+                        <li><a href="shop">เมนูรายการ</a></li>
                         <li><a href="#footer">ติดต่อเรา</a></li>
                     </ul>
                 </div>  

@@ -80,7 +80,7 @@
                     echo '<script type="text/javascript">';
                     echo 'setTimeout(function () { swal.fire({
                         title: "สำเร็จ!",
-                        text: "เพิ่มสินค้าเรียบร้อย",
+                        text: "เพิ่มเมนูเรียบร้อย",
                         type: "success",
                         icon: "success"
                     });';

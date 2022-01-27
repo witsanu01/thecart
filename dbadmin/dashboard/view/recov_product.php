@@ -14,21 +14,21 @@ $result_pd = $conn->query($sql_pd);
          <?php include '../config/card/card.php' ?>  
         <div class="card">
         <div class="card-header card-header-primary">
-        <h4 class="card-title">รายงานสินค้า</h4>   
+        <h4 class="card-title">รายงานเมนู</h4>   
         </div>
         <div class="card-body table-responsive">
         <div class="center">
-        <a class="btn btn-warning " href="../insert/product" role="button">เพิ่มสินค้า</a>
-        <a class="btn btn-primary " href="../insert/product" role="button">กู้คืนสินค้า</a>
+        <a class="btn btn-warning " href="../insert/product" role="button">เพิ่มเมนู</a>
+        <a class="btn btn-primary " href="../insert/product" role="button">กู้คืนเมนู</a>
         </div>
         
         <div class="form-group mt-2"> 
         <table class="table table-hover" id="example">
         <thead>
-        <th>วันที่เพิ่มสินค้า</th>
+        <th>วันที่เพิ่มเมนู</th>
         <th></th>
-        <th>รหัสสินค้า</th>
-        <th>ชื่อสินค้า</th>
+        <th>รหัสเมนู</th>
+        <th>ชื่อเมนู</th>
         <th>รายละเอียด</th>
         <th>ราคาต่อหน่วย</th>
         <th>คงเหลือ</th>
@@ -53,10 +53,10 @@ $result_pd = $conn->query($sql_pd);
         <td>
 
         <a class="btn btn-info"  href="../config/addqty?repair_id=<?php echo $meResult['id']; ?>" role="button">
-        เพิ่มจำนวนสินค้า <i class="fa fa-edit"></i></a>
+        เพิ่มจำนวนเมนู <i class="fa fa-edit"></i></a>
 
         <a class="btn btn-warning"  href="../config/editproduct?repair_id=<?php echo $meResult['id']; ?>" role="button">
-        แก้ไขสินค้า <i class="fa fa-edit"></i></a>
+        แก้ไขเมนู <i class="fa fa-edit"></i></a>
             
         <a class="btn btn-success"  href="../delete/recovproduct?user_id=<?php echo $meResult['id']; ?>" role="button">
         กู้คืน <i class="fa fa-retweet"></i></a>

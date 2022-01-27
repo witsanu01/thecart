@@ -58,8 +58,8 @@
       <table class="table table-striped table-bordered">
       <tr><br>
       <th>ลำดับ</th>
-      <th>ชื่อสินค้า</th>
-      <th>ราคาสินค้า</th>
+      <th>ชื่อเมนู</th>
+      <th>ราคาเมนู</th>
       <th>จำนวน</th>
       <th>ราคาสุทธิ</th>
       </tr>

@@ -29,7 +29,7 @@ $query = mysqli_query($conn, $sql);
             <table class="table table-hover" id="example">
               <thead>
                 <tr>
-                <th>ชื่อสินค้า</th>
+                <th>ชื่อเมนู</th>
                 <th>จำนวนที่สั่งซื้อ</th>
                 <th>ราคาต่อชิ้น</th>
                 <th>รวมเป็นเงิน</th>

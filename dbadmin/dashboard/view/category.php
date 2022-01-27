@@ -15,7 +15,7 @@ $result8 = $conn->query($sql8);
          <?php include '../config/card/card.php' ?>
               <div class="card">
                 <div class="card-header card-header-success">
-                  <h4 class="card-title">รายงานสินค้า</h4>
+                  <h4 class="card-title">รายงานเมนู</h4>
                 </div>
             <div class="card-body table-responsive">
             <div class="form-group">

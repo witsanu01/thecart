@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
             <span id="usernameavailable"></span>
        </div>
        <div class="mb-2">
-            <label for="product_name" class="form-label">วันที่รับสินค้า</label>
+            <label for="product_name" class="form-label">วันที่รับเมนู</label>
             <input type="date" class="form-control" id="dateend" name="dateend" onblur="checkusername(this.value)">
             <span id="usernameavailable"></span>
        </div>

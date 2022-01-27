@@ -51,7 +51,7 @@ $rid = $_GET['repair_id'];
                     
         <div class="row" >    
             <div class="col-md-12" id="repair_cause">
-				<label class="control-label">ชื่อสินค้า :</label>
+				<label class="control-label">ชื่อเมนู :</label>
 					<?php echo $mem['product_name'] ;?>
             </div>
         </div>

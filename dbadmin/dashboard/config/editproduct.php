@@ -23,7 +23,7 @@ include("file-upload3.php");
         <div class="container-fluid">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">แก้ไขสินค้า</h4>
+                  <h4 class="card-title">แก้ไขเมนู</h4>
                 </div>
                 <div class="card-body table-responsive">
                 <div class="form-group">
@@ -33,21 +33,21 @@ include("file-upload3.php");
          <input type="text" class="form-control" id="product_id" style="display:none" name="product_id" value="<?php echo $mem['id'] ;?>" disable >
      </div>  
      <div class="mb-3">
-         <label for="product_code" class="form-label">รหัสสินค้า</label>
+         <label for="product_code" class="form-label">รหัสเมนู</label>
          <input type="text" class="form-control" id="product_code" name="product_code" value="<?php echo $mem['product_code'] ;?>" disable >
      </div>
      <div class="mb-3">
-         <label for="product_name" class="form-label">ชื่อสินค้า</label>
+         <label for="product_name" class="form-label">ชื่อเมนู</label>
          <input type="text" class="form-control" id="product_name" name="product_name" onblur="checkusername(this.value)"value="<?php echo $mem['product_name'] ;?>">
          <span id="usernameavailable"></span>
      </div>
      <div class="mb-3">
-     <label for="product_desc" class="form-label">รายละเอียดสินค้า</label>
+     <label for="product_desc" class="form-label">รายละเอียดเมนู</label>
          <input type="text" class="form-control" id="product_desc" name="product_desc" value="<?php echo $mem['product_desc'] ;?>">
      </div>
 
      <div class="mb-3">
-     <label for="product_desc" class="form-label">หมวดหมู่สินค้า</label></label>
+     <label for="product_desc" class="form-label">หมวดหมู่เมนู</label></label>
         <select name="catId" id="catId" class="form-control">
         <option value="<?php echo $mem['catId'] ;?>"><?php echo $mem['catName'] ;?></option>
             <?php while($resultcat = mysqli_fetch_assoc($resultcat2)): ?>
@@ -75,7 +75,7 @@ include("file-upload3.php");
 </div>
 
 <button type="submit" name="submit" class="btn btn-warning btn-block mt-4">
- แก้ไขสินค้า
+ แก้ไขเมนู
 </button>
 </form>
       </div>

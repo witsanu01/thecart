@@ -35,8 +35,8 @@ $updatedata = new DB_con();
                         <table class="table table-hover table-dark">
                         <tr class="cart_menu"><br>
                         <th>ลำดับ</th>
-                        <th>ชื่อสินค้า</th>
-                        <th>ราคาสินค้า</th>
+                        <th>ชื่อเมนู</th>
+                        <th>ราคาเมนู</th>
                         <th>จำนวน</th>
                         <th>ราคาสุทธิ</th>
                         </tr>   

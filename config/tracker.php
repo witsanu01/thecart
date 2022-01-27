@@ -24,7 +24,7 @@
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    ระบบคลังสินค้า
+    ระบบคลังเมนู
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -68,8 +68,8 @@
                       <thead class=" text-info">
                         <th class="text-info">บริการขนส่ง</th>
                         <th class="text-info">เลข Track</th>
-                        <th class="text-info">วันที่ส่งสินค้า</th>
-                        <th class="text-info">วันที่ได้รับสินค้า</th>
+                        <th class="text-info">วันที่ส่งเมนู</th>
+                        <th class="text-info">วันที่ได้รับเมนู</th>
                         </thead>
                       <tbody>
                       <?php 

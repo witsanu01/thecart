@@ -18,9 +18,9 @@ session_start();
                       <div class="ct-chart" id="piechwart"></div>
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">จำนวนสินค้าที่ขายไปของร้าน</h4>
+                      <h4 class="card-title">จำนวนเมนูที่ขายไปของร้าน</h4>
                       <p class="card-category">
-                        <span class="text-success"><i class="fa fa-long-arrow-up"></i></span> จำนวนสินค้าที่ขายออกไปทั้งหมดของร้าน.</p>
+                        <span class="text-success"><i class="fa fa-long-arrow-up"></i></span> จำนวนเมนูที่ขายออกไปทั้งหมดของร้าน.</p>
                     </div>
                   </div>
                 </div>
@@ -30,24 +30,24 @@ session_start();
                       <div class="ct-chart" id="barchart"></div>
                     </div>
                     <div class="card-body">
-                      <h4 class="card-title">จำนวนสินค้าที่ขายไปของร้าน</h4>
+                      <h4 class="card-title">จำนวนเมนูที่ขายไปของร้าน</h4>
                       <p class="card-category">
-                        <span class="text-success"><i class="fa fa-long-arrow-up"></i></span> จำนวนสินค้าที่ขายออกไปทั้งหมดของร้าน.</p>
+                        <span class="text-success"><i class="fa fa-long-arrow-up"></i></span> จำนวนเมนูที่ขายออกไปทั้งหมดของร้าน.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                 <div class="card">
                   <div class="card-header card-header-warning">
-                    <h4 class="card-title">สินค้าขายดีของทางร้าน</h4>
+                    <h4 class="card-title">เมนูขายดีของทางร้าน</h4>
                   </div>
                   <div class="card-body table-responsive">
                   <table class="table table-hover" id="example"> 
                   <hr>
                   <thead>
                   <tr>
-                  <th>รหัสสินค้า</th>
-                  <th>ชื่อสินค้า</th>
+                  <th>รหัสเมนู</th>
+                  <th>ชื่อเมนู</th>
                   <th align = 'right'>ราคา</th>
                   <th>จำนวนการขาย</th>
                   </tr>
@@ -73,15 +73,15 @@ session_start();
               <div class="col-md-6">
                 <div class="card">
                   <div class="card-header card-header-warning">
-                    <h4 class="card-title">สินค้าที่ใกล้หรือหมดสต๊อค</h4>
+                    <h4 class="card-title">เมนูที่ใกล้หรือหมดสต๊อค</h4>
                   </div>
                   <div class="card-body table-responsive">
                   <table class="table table-hover" id="example2"> 
                   <hr>
                   <thead>
                   <tr>
-                  <th>รหัสสินค้า</th>
-                  <th>ชื่อสินค้า</th>
+                  <th>รหัสเมนู</th>
+                  <th>ชื่อเมนู</th>
                   <th align = 'right'>ราคา</th>
                   </tr>
                   </thead>

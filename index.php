@@ -49,7 +49,7 @@ include 'config/functions.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="single-promo promo4">
                         <i class="fa fa-gift"></i>
-                        <p>สินค้าเข้าสดใหม่ทุกวัน</p>
+                        <p>เมนูเข้าสดใหม่ทุกวัน</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ include 'config/functions.php';
                             $sql = $products->fetchdataproduct_index();
                             $rowcount=mysqli_num_rows($sql);
                                 if($rowcount<=0){
-                                echo "<div class=\"alert alert-warning\">ไม่พบสินค้า</div>";
+                                echo "<div class=\"alert alert-warning\">ไม่พบเมนู</div>";
                                 }
                                 else{
                             while($row = mysqli_fetch_array($sql)) 
@@ -87,7 +87,7 @@ include 'config/functions.php';
                                     <?php endif; ?> 
                                     <?php if($row['qty']<=0) : ?>
                                         <div class="product-hover">
-											<p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">สินค้าหมด</span></p>
+											<p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">เมนูหมด</span></p>
                                         </div>
                                     <?php endif; ?> 
                                 </div>

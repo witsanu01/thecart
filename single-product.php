@@ -30,7 +30,7 @@ $pid=$_GET['id'];
                         $sql = $products->fetchdataproduct1();
                         $rowcount=mysqli_num_rows($sql);
                             if($rowcount<=0){
-                            echo "<div class=\"alert alert-warning\">ไม่พบสินค้า</div>";
+                            echo "<div class=\"alert alert-warning\">ไม่พบเมนู</div>";
                             }
                             else{
                         while($row = mysqli_fetch_array($sql)) 
@@ -47,7 +47,7 @@ $pid=$_GET['id'];
                             <?php endif; ?> 
 
                             <?php if($row['qty']<=0) : ?>
-                            <p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">สินค้าหมด</span></p>
+                            <p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">เมนูหมด</span></p>
                             <?php endif; ?> 
                                 <ins><?php echo number_format($row['product_price'],2); ?> บาท</ins>
                             </div>                             
@@ -94,7 +94,7 @@ $pid=$_GET['id'];
                                     <?php endif; ?> 
 
                                     <?php if($row1['qty']<=0) : ?>
-                                    <p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">สินค้าหมด</span></p>
+                                    <p class="card-text add-to-cart-link"><span class="badge badge-secondary" style="background-color:red">เมนูหมด</span></p>
                                     <div class="product-option-shop">
                                     </div>
                                     <?php endif; ?> 
@@ -108,7 +108,7 @@ $pid=$_GET['id'];
                                         </ul>
                                         <div class="tab-content">
                                             <div role="tabpanel" class="tab-pane fade in active" id="home">
-                                                <h2>รายละเอียดสินค้า</h2>  
+                                                <h2>รายละเอียดเมนู</h2>  
                                                 <?php echo $row1['product_desc']; ?>
                                             </div>
                                         </div>

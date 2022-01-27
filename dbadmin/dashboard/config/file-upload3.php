@@ -35,7 +35,7 @@
                 echo '<script type="text/javascript">';
                     echo 'setTimeout(function () { swal.fire({
                         title: "สำเร็จ!",
-                        text: "แก้ไขสินค้าเรียบร้อย",
+                        text: "แก้ไขเมนูเรียบร้อย",
                         type: "success",
                         icon: "success"
                     });';
@@ -61,7 +61,7 @@
                 echo '<script type="text/javascript">';
                     echo 'setTimeout(function () { swal.fire({
                         title: "สำเร็จ!",
-                        text: "แก้ไขสินค้าเรียบร้อย",
+                        text: "แก้ไขเมนูเรียบร้อย",
                         type: "success",
                         icon: "success"
                     });';

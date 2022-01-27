@@ -23,7 +23,7 @@ $role = $_SESSION['role_id'];
         <div class="container-fluid">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">เพิ่มหมวดหมู่สินค้า</h4>
+                  <h4 class="card-title">เพิ่มหมวดหมู่เมนู</h4>
                 </div>
                 <div class="card-body table-responsive">
                 <div class="form-group">
