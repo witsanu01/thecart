@@ -42,7 +42,7 @@
                   <div class="card-icon">
                     <i class="material-icons">info_outline</i>
                   </div>
-                  <p class="card-category">จำนวนสินค้าที่เลิกขาย</p>
+                  <p class="card-category">จำนวนเมนูที่เลิกขาย</p>
                   <h3 class="card-title"><?php echo $rowd["drd"]; ?> 
                   <small>รายการ</small>
                   </h3>

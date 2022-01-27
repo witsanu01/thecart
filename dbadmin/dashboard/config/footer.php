@@ -1,8 +1,8 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2022 <a href="https://adminlte.io">Devbunny THECART</a>.</strong>
-    All rights reserved.
+    <strong> &copy; 2022 <a href="#">ร้านหมูกระทะเพชรร่มไทร</a>.</strong>
+    
     <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 4.5.0
+      <b></b> 
     </div>
 </footer>
 

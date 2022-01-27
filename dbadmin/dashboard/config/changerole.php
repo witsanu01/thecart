@@ -78,8 +78,8 @@ if (isset($_POST['update'])) {
                         <label for="qty" class="form-label">สิทธ์เข้าใช้งาน</label>
                         
                         <select class="form-control" id="role_id" name="role_id"">
-                        <option value="1">Admin</option>
-                        <option value="0">Users</option>
+                        <option value="1">เจ้าหน้าที่ของร้าน</option>
+                        <option value="0">ลูกค้า</option>
                         </select>
                     </div>
                     <button type="submit" name="update" class="btn btn-info btn-block mt-4" onclick="showNotification2('top','right')">

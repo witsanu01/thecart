@@ -37,7 +37,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
-    background-image: url('../bg.jpg');
+    background-image: url('../peter05.jpeg');
     
 }
 
@@ -171,7 +171,7 @@ iframe {
   align-items: center;
   padding: 15px;
 
-    background-image: url('../bg.jpg');
+    background-image: url('../peter05.jpeg');
 background-size: cover;
 background-repeat: no-repeat;
 }

@@ -38,7 +38,7 @@ include_once('connect.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V1</title>
+	<title>Login | ร้านหมูกระทะเพชรร่มไทร</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	

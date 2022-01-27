@@ -9,7 +9,7 @@ session_start();
      
           <a class="nav-link" href="javascript:;">
           <i class="fa fa-tachometer-alt"></i> 
-            สวัสดี, <?php echo $_SESSION['fname']; ?>
+            สวัสดีจ้า, <?php echo $_SESSION['fname']; ?>
           </a>
          
           <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,7 +35,7 @@ session_start();
             <a href="/thecart/dbadmin/dashboard/" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+               หน้าหลักของร้าน
               </p>
             </a>
           </li>

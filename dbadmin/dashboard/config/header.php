@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THECART | Dashboard</title>
+  <title>THECART | หน้ารวม</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -66,7 +66,7 @@
     $date2->setTimezone(new DateTimeZone('Asia/Bangkok'));
     echo $date2->format(DateTime::RFC850) . "\n";
     ?>
-    |&nbsp;<b>สถานะเชื่อมต่อ internet </b>&nbsp;<span class="connect-status">&nbsp;</span>
+    |&nbsp;<b>สถานะเชื่อมต่อ อินเตอร์เน็ตเชื่อมปกติ </b>&nbsp;<span class="connect-status">&nbsp;</span>
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">

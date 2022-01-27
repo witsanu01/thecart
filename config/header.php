@@ -111,7 +111,7 @@ $resultcat = $conn->query($sqlcat);
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <!-- <h1><a href="./"><img src="/thecart/assets/img/logo.png"></a></h1> -->
+                        <!-- <h1><a href="./"><img src="/thecart/assets/img/peter04.png"></a></h1> -->
                     </div>
                 </div>
                 

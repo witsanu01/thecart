@@ -41,7 +41,7 @@ $rid = $_GET['repair_id'];
           
           <div class="card">
             <div class="card-header card-header-warning">
-              <h4 class="card-title">เพิ่มจำนวนสินค้า</h4>
+              <h4 class="card-title">เพิ่มจำนวน</h4>
             </div>
             <div class="card-body">
               <div id="typography">
